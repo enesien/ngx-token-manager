@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "release": "ng build ngx-token-manager & cd dist/ngx-token-manager & npm publish",
+    "release": "xcopy \"README.md\" \"projects/ngx-token-manager/README.md*\" /Y & ng build ngx-token-manager & cd dist/ngx-token-manager & npm publish",
     "test": "ng test"
   },
   "private": true,

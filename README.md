@@ -4,6 +4,10 @@ Small Angular service to easily manage tokens (like JWT) asynchronously in the b
 
 ## Usage
 
+Install
+
+`npm install ngx-token-manager`
+
 Provide `NgxTokenModule` in your app.module.ts file
 
 ```javascript
